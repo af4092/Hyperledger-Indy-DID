@@ -18,4 +18,9 @@ docker run --name indy_pool -itd -p 9701-9708:9701-9708 indy_pool
 ```
 ![image](https://github.com/af4092/Hyperledger-Indy-DID/assets/24220136/1b9e50f5-94de-4d85-bcc4-8816f9460852)
 
+-----------------------
 
+### [Implementation](https://github.com/af4092/Hyperledger-Indy-DID/tree/main/src)
+
+- Implementation is given in the following directory: `src/hostpital1|hospital2|patient|docker-compose.yml`. The Docker Compose configuration sets up a distributed system consisting of an indy-node service (Hyperledger Indy), along with two hospitals (hospital1 and hospital2) and a patient service. Each service is defined with its own Docker image build context, ports, volumes, and dependencies on the indy-node service. The configuration allows these services to be run together using Docker Compose, enabling communication and interaction between them.
+- Currently services are running without problem, but work is not finished, services should contact with each other over the Decentralized Network. Work needs to be continued
