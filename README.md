@@ -16,7 +16,7 @@ cd indy-sdk/ci
 docker build -f ci/indy-pool.dockerfile -t indy_pool .
 docker run --name indy_pool -itd -p 9701-9708:9701-9708 indy_pool
 ```
-![image](https://github.com/af4092/Hyperledger-Indy-DID/assets/24220136/1b9e50f5-94de-4d85-bcc4-8816f9460852)
+![image](https://github.com/af4092/Hyperledger-Indy-DID/assets/24220136/6223ce83-1feb-4394-a4da-257e3a9d46d1)
 
 -----------------------
 
